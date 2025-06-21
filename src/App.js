@@ -148,7 +148,7 @@ function ContactInfo() {
             <FaPhone className="mr-2" /> +91 82679 77123
           </a>
           <a
-            href="www.linkedin.com/in/udit-meharwal"
+            href="https://www.linkedin.com/in/udit-meharwal/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-gray-600 dark:text-gray-200 hover:text-coral-500 dark:hover:text-coral-400 transition-colors duration-300 transform hover:scale-105"
@@ -349,7 +349,7 @@ function App() {
               <FaEnvelope size={24} />
             </a>
             <a
-              href="www.linkedin.com/in/udit-meharwal"
+              href="https://www.linkedin.com/in/udit-meharwal/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-200 hover:text-coral-500 dark:hover:text-coral-400 transition-colors duration-300 transform hover:scale-110"
