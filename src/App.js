@@ -45,20 +45,20 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-0 w-full z-20 bg-gray-900/50 dark:bg-gray-900/50 backdrop-blur-md shadow-lg">
+    <header className="fixed top-0 w-full z-20 bg-blue-900/50 dark:bg-grey-900/50 backdrop-blur-md shadow-lg">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <button
           onClick={scrollToTop}
-          className="text-2xl font-bold text-blue-400 dark:text-cyan-400 hover:text-blue-300 dark:hover:text-cyan-300 transition-colors duration-300 neon-glow"
+          className="text-3xl font-bold text-blue-400 dark:text-cyan-400 hover:text-red-300 dark:hover:text-red-300 transition-colors duration-300 neon-glow"
         >
           UM
         </button>
-        <nav className="hidden md:flex items-center gap-4">
+        <nav className="hidden md:flex items-center gap-6">
           {sections.map((section) => (
             <button
               key={section.id}
               onClick={() => scrollToSection(section.id)}
-              className="text-gray-600 dark:text-gray-300 hover:text-blue-400 dark:hover:text-cyan-400 transition-colors duration-300 text-sm font-medium relative group"
+              className="text-gray-600 dark:text-gray-300 hover:text-blue-400 dark:hover:text-cyan-400 transition-colors duration-300 text-base font-medium relative group"
             >
               <span className="mr-2">{section.icon}</span>
               {section.label}
